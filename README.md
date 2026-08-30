@@ -12,7 +12,10 @@ CarLog is a personal vehicle management application for tracking cars, maintenan
 
 ## Development
 
-Install dependencies:
+Install dependencies, development & lint:
 
 ```bash
 npm install
+npm run dev
+npm run lint
+```
