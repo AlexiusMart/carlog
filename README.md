@@ -1,13 +1,15 @@
 # CarLog
 
-CarLog — приложение для учета автомобилей, обслуживания, заправок, расходов и других событий, связанных с владением автомобилем.
+CarLog - приложение для учета автомобилей, обслуживания, заправок, расходов и других событий, связанных с владением автомобилем.
 
 ## Стек
 
-- Framework: Next.js 16, React
+- Framework: Next.js 16, React 19
 - Language: TypeScript
 - UI: Tailwind CSS, shadcn/ui
 - Code quality: ESLint, Prettier
+
+Структура репозитория: npm workspaces monorepo.
 
 ## Разработка
 
@@ -52,12 +54,14 @@ npm run build
 Базовая структура:
 
 ```text
-src/
-  app/
-  modules/
-  shared/
+apps/
+  web/
+    src/
+      app/
+      modules/
+      shared/
 ```
 
-- `app` — routing, layouts и Next.js-specific код
-- `modules` — бизнесовые модули приложения
-- `shared` — переиспользуемый UI и общие технические утилиты
+- `app` - routing, layouts и Next.js-specific код
+- `modules` - бизнесовые модули приложения
+- `shared` - переиспользуемый UI и общие технические утилиты
