@@ -9,6 +9,7 @@
     "build": "npm run build --workspace=@carlog/web",
     "start": "npm run start --workspace=@carlog/web",
     "lint": "npm run lint --workspace=@carlog/web",
+    "typecheck": "npm run typecheck --workspace=@carlog/web",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
